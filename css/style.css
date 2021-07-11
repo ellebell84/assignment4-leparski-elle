@@ -1,16 +1,13 @@
 <style>
-
   img   {
     border: 5px solid grey;
   }
-
   body  {
     background-image: url("images/plaid-background.jpeg");
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
 /* Navigation*/
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,19 +18,16 @@ ul {
   border: 10px double white;
   border-radius: 12px;
 }
-
 li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #555;
   color: white;
 }
-
   h1   {
     color: black;
     text-align: center;
@@ -47,7 +41,6 @@ li a:hover {
     border:5px; border-style: solid;
     border-radius: 10px;
   }
-
   p    {
     color: white;
     background-color: grey;
@@ -63,7 +56,6 @@ li a:hover {
     border: 10px double white;
     border-radius: 12px;
 }
-
   h2   {
     color: black;
     background-color: grey;
@@ -78,7 +70,6 @@ li a:hover {
     border: 10px double white;
     border-radius: 12px;
   }
-
   h3   {
     color: black;
     background-color: white;
@@ -113,7 +104,6 @@ li a:hover {
     bottom: 180px;
   }
 /*fun facts*/
-
   #one{
     position: relative;
     left: 650px;
@@ -122,22 +112,17 @@ li a:hover {
     min-width: 50px;
     font-size: 12px;
 }
-
   #image2{
   float:left;
 }
-
-
 #gallery {
   position:relative;
-  right: 500x;
+  right: 500px;
   left: 200px;
   bottom: 400px;
   height:281px;
   width:450px;
-
 }
-
 #gallery img {
   position:absolute;
   -webkit-transition: opacity 2s ease-in-out;
@@ -145,14 +130,11 @@ li a:hover {
   -o-transition: opacity 2s ease-in-out;
   transition: opacity 2s ease-in-out;
 }
-
 #gallery img.top:hover {
   opacity:0;
 }
-
 #contact {
-display: inline
+display: inline;
 font-size: 24px;
 }
-
 </style>
