@@ -18,6 +18,8 @@ ul {
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
+  border: 10px double white;
+  border-radius: 12px;
 }
 
 li a {
@@ -92,5 +94,57 @@ li a:hover {
     border: 3px; border-style:solid; border-color: black;
     border-radius: 10px;
   }
+  h4   {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: Rolling Bold;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    max-width: 250px;
+    min-width: 100px;
+    margin: 17px auto 17px auto;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 3px; border-style:solid; border-color: black;
+    border-radius: 10px;
+    position: absolute;
+    right: 130px;
+    bottom: 180px;
+  }
+/*fun facts*/
 
+  #one{
+    position: relative;
+    left: 650px;
+    bottom: 780px;
+    max-width: 200px;
+    min-width: 50px;
+    font-size: 12px;
+}
+
+  #image2{
+  float:left;
+}
+
+#gallery {
+  margin:0 auto;
+  max-width: 750px;
+  min-width: 500px;
+  margin: 17px auto 17px auto;
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+
+#gallery img {
+  position:absolute;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+#gallery img.top:hover {
+  opacity:0;
+}
 </style>
