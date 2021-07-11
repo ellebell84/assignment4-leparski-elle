@@ -1,0 +1,74 @@
+<style type"text/css">
+
+  img   {
+    border: 5px solid grey;
+  }
+
+  body  {
+    background-image: url("images/plaid-background.jpeg");
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  h1   {
+    color: black;
+    text-align: center;
+    font-family: Rolling Bold;
+    text-shadow: 2px 2px 10px grey;
+    background-color: white;
+    font-size: 64px;
+    max-width: 940px;
+    padding-bottom:10px;
+    margin: 15px auto 15px auto;
+    border:5px; border-style: solid;
+    border-radius: 10px;
+  }
+
+  p    {
+    color: white;
+    background-color: grey;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom:25px;
+    padding-left: 15px;
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    border: 10px double white;
+    border-radius: 12px;
+  }
+
+  h2   {
+    color: black;
+    background-color: grey;
+    font-family: Rolling Bold;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+    max-width: 750px;
+    min-width: 500px;
+    margin: 17px auto 17px auto;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 10px double white;
+    border-radius: 12px;
+  }
+
+  h3   {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: Rolling Bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    max-width: 250px;
+    min-width: 100px;
+    margin: 17px auto 17px auto;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border: 3px; border-style:solid; border-color: black;
+    border-radius: 10px;
+  }
+
+</style>
