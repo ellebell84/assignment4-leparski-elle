@@ -62,7 +62,7 @@ li a:hover {
     margin: 10px auto 10px auto;
     border: 10px double white;
     border-radius: 12px;
-  }
+}
 
   h2   {
     color: black;
@@ -127,13 +127,15 @@ li a:hover {
   float:left;
 }
 
+
 #gallery {
-  margin:0 auto;
-  max-width: 750px;
-  min-width: 500px;
-  margin: 17px auto 17px auto;
-  padding-top: 5px;
-  padding-bottom:5px;
+  position:relative;
+  right: 500x;
+  left: 200px;
+  bottom: 400px;
+  height:281px;
+  width:450px;
+
 }
 
 #gallery img {
@@ -147,4 +149,10 @@ li a:hover {
 #gallery img.top:hover {
   opacity:0;
 }
+
+#contact {
+display: inline
+font-size: 24px;
+}
+
 </style>
